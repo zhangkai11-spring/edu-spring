@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-base" />
+        <module name="service-edu" />
+        <module name="service_edu" />
+        <module name="service_base" />
+        <module name="service-oss" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="gedu" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-base" target="1.8" />
+      <module name="service-edu" target="1.8" />
+      <module name="service-oss" target="1.8" />
+      <module name="service_base" target="1.8" />
+      <module name="service_ed" target="1.8" />
+      <module name="service_edu" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="gedu" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service-base" options="-parameters" />
+      <module name="service-edu" options="-parameters" />
+      <module name="service-oss" options="-parameters" />
+      <module name="service_base" options="-parameters" />
+      <module name="service_ed" options="-parameters" />
+      <module name="service_edu" options="-parameters" />
+    </option>
+  </component>
+</project>
